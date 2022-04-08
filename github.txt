@@ -1,0 +1,30 @@
+
+    <h1>GITHUB COMMAND CHEETSHEET</h1>
+<!-- for uploading any files into github then follow the 
+following steps:- -->
+1-git init(git initialization)
+extra commands:-
+i-git config --global user.name(adding username)
+ii-git config --global user.email(adding user email)
+2-git add filename(adding any file)
+3-git add*(adding all files)
+4-git commit -m "this is commit"(through this the files are commit)
+5-git log(for checking your all previous commit)
+6-git log
+7-git checkout filename(this command using for restore the delet file)
+git checkout -f(this command using for restore the all files which was deleted)
+8-clear (this is clear the whole terminal)
+9-touch filename (this command used for adding any file)
+10-git rm --cached filename(its change file status from staging area)
+11-git status -s(its gives nothing when you are not changed)
+12-touch .gtiignore (this is the file through which you add the names of files and then those files are ignore)
+note:-if you want to ignore all the files which have the extention name log the enter the name into .ignore file
+is *.log
+13-git branch(this command helpful to show the name of branch)
+14-git branch branchname(this command help you to make new branch name)
+15-git checkout branchname(this command help you to switch to particular branchname)
+16-git merge branchname(through this two branches merges and the new files which is in the second branche add to the first)
+17-git checkout -b branchname(this is combination of making branch and switch to this branchname)
+18-git remote
+19-git remote -v(this command define that through where to fetch and where to push)
+20-=git push origin master(this is the command through which we can upload our files)
